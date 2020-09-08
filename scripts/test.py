@@ -1,8 +1,15 @@
-# Train and Test
+# This script is to train and test machine learning models.
+# Valid models are:
+# Logistic regression
+# Random forest
+# Decision tree
+# SVM
+# Neural Network
 """
     Usage:
         python test.py -m logistic_regression -i A171T -class 3 --C 1 --solver lbfgs --penalty l2
 """
+
 from sklearn import linear_model
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
